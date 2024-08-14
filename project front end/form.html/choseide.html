@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="choseide.css">
+</head>
+<body > 
+    <h1 >Online code Smart ide</h1>
+    <div class="contener">
+        <div class="chose">
+            <h3>You can chose Language</h3>
+            <p style="color: blue;">C CPP JAVA PYTHON</p>
+           <a href="http://localhost:8000/"><input type="button" name="button" value="Click Here" style="background-color: rgb(27, 210, 57); "> </a>
+           <p style="color: blue;">HTML CSS JAVASCRIPT</p>
+           <a href="http://127.0.0.1:5500/myproject2/project%20front%20end/onlinecodehtml.html"><input type="button" name="button" value="Click Here" style="background-color: rgb(60, 220, 16); "> </a>
+        
+        </div>
+    </div>
+
+    <!-- --------------------------------- -->
+    <button id="sign-out" style="position: absolute; top: 10px; right: 10px;">Sign Out</button>
+    <script>
+        document.getElementById('sign-out').addEventListener('click', () => {
+            // Perform sign-out logic here (e.g., clear session storage)
+            window.location.href = 'signin.html';
+        });
+    </script>
+    <!-- -------------------------------------- -->
+</body>
+</html>
